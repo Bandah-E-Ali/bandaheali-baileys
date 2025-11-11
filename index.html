@@ -604,7 +604,7 @@
                 </div>
                 <pre id="code1"><code>{
   "dependencies": {
-    "Bandaheali-Baileys": "*"
+    "bandaheali-baileys": "*"
   }
 }</code></pre>
             </div>
@@ -618,7 +618,7 @@
                 </div>
                 <pre id="code2"><code>{
   "dependencies": {
-    "@whiskeysockets/baileys": "github:Bandaheali/Bandaheali-Baileys"
+    "@whiskeysockets/baileys": "npm:bandaheali-baileys"
   }
 }</code></pre>
             </div>
@@ -630,7 +630,7 @@
                         <span>📋</span> Copy
                     </button>
                 </div>
-                <pre id="code3"><code>npm install Bandaheali-baileys</code></pre>
+                <pre id="code3"><code>npm install bandaheali-baileys</code></pre>
             </div>
 
             <div class="steps-container">
@@ -638,7 +638,7 @@
                     <div class="step-number">1</div>
                     <div class="step-content">
                         <h3 class="step-title">Install the Package</h3>
-                        <p>Use npm to install Bandaheali-Baileys in your project directory.</p>
+                        <p>Use npm to install bandaheali-baileys in your project directory.</p>
                     </div>
                 </div>
                 <div class="step">
@@ -672,10 +672,10 @@
                     </button>
                 </div>
                 <pre id="code4"><code><span class="code-comment">// ESM Import</span>
-<span class="code-keyword">import</span> makeWASocket <span class="code-keyword">from</span> <span class="code-string">'Bandaheali-baileys'</span>;
+<span class="code-keyword">import</span> makeWASocket <span class="code-keyword">from</span> <span class="code-string">'bandaheali-baileys'</span>;
 
 <span class="code-comment">// CommonJS Import</span>
-<span class="code-keyword">const</span> { default: makeWASocket } = <span class="code-function">require</span>(<span class="code-string">"Bandaheali-baileys"</span>);</code></pre>
+<span class="code-keyword">const</span> { default: makeWASocket } = <span class="code-function">require</span>(<span class="code-string">"bandaheali-baileys"</span>);</code></pre>
             </div>
 
             <div class="code-section">
@@ -701,7 +701,7 @@
                 </div>
                 <pre id="code6"><code><span class="code-keyword">if</span>(usePairingCode && !sock.authState.creds.registered) {
   <span class="code-keyword">const</span> phoneNumber = <span class="code-keyword">await</span> <span class="code-function">question</span>(<span class="code-string">'Please enter your mobile phone number:\n'</span>);
-  <span class="code-keyword">const</span> custom = <span class="code-string">"BANDAHEALI"</span>; <span class="code-comment">// must be 8 digits, can be letters or numbers</span>
+  <span class="code-keyword">const</span> custom = <span class="code-string">"BRSHABAN"</span>; <span class="code-comment">// must be 8 digits, can be letters or numbers</span>
   <span class="code-keyword">const</span> code = <span class="code-keyword">await</span> sock.<span class="code-function">requestPairingCode</span>(phoneNumber, custom);
   console.<span class="code-function">log</span>(<span class="code-string">`Pairing code: <span class="code-keyword">${</span>code?.match(/.{1,4}/g)?.join('-') || code<span class="code-keyword">}</span>`</span>);
 }</code></pre>
@@ -751,7 +751,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>© 2023 BANDAHEALI-BAILEYS PRO. All rights reserved. | Powered by the ultimate WhatsApp Web API experience</p>
+                <p>© 2025 BANDAHEALI-BAILEYS PRO. All rights reserved. | Powered by the ultimate WhatsApp Web API experience</p>
             </div>
         </div>
     </footer>
